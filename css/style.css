@@ -10,38 +10,135 @@ html {
 	color:black;
 }
 .bignav{
-	display: block;
-	margin: 35px auto 85px;
-	height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 80px;
 	width: 100%;
 	border: 1px solid black;
 }
 
-#smallnav{
+.leftnav img, .leftnav button, .leftnav input{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.leftnav{
+	display: flex;
+	margin: auto;
+	height: 80px;
+	width: 800px;
+}
+.leftnav input{
+	width: 400px;
+	height:35px;
+	margin: auto 0px auto;
+}
+
+.leftnav button{
+	width: 65px;
+	height: 35px;
+	margin: auto 0px;
+
+}
+
+.rightnav{
+	display: flex;
+	justify-content: flex-end;
+	margin: auto;
+	height: 80px;
+	width: 250px;
+}
+
+.rightnav h4, .rightnav button{
+	justify-content: flex-end;
+	margin: auto;
+
+}
+
+.cart{
+	margin: auto;
 	display: block;
+	height:50px;
+	width:30px;
+	padding-left: 25px;
+	border-left: 1px solid black
+}
+.cart h4{
+	margin-top:0px;
+}
+
+
+#smallnav{
+	display: flex;
 	clear: both;
-	margin: 100px auto 35px;
+	margin: 0px auto 35px;
 	height: 50px;
 	width: 100%;
 	border: 1px solid black;
+}
+
+#smallnav ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+#smallnav li{
+	margin: auto 35px;
 }
 
 main{
 	display: block;
 	float: right;
 	margin: 0 auto 35px;
-	width: 1000px;
+	width: 1150px;
 	height: 2000px;
 	border: 1px solid black;
 }
 
+.section1 , .section2{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: auto;
+	height: 500px;
+	width: auto;
+
+}
+.section2{
+	height: 1000px;
+}
+.bigger{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: auto;
+	height:250px;
+	width: 350px;
+	border: 1px solid black;
+
+}
+.smaller{
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	height:250px;
+	width: 275px;
+	border: 1px solid black;
+}
+
+
 .leftmenu {
 	display: block;
 	float: left;
-	height: 700px;
-	width: 300px;
+	height: 1200px;
+	width: 230px;
 	border: 1px solid black;
+}
 
+li{
+	list-style: none;
 }
 
 footer{
