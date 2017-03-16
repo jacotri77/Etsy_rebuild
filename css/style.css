@@ -1,0 +1,54 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+*{
+	color:black;
+}
+.bignav{
+	display: block;
+	margin: 35px auto 85px;
+	height: 100px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+#smallnav{
+	display: block;
+	clear: both;
+	margin: 100px auto 35px;
+	height: 50px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+main{
+	display: block;
+	float: right;
+	margin: 0 auto 35px;
+	width: 1000px;
+	height: 2000px;
+	border: 1px solid black;
+}
+
+.leftmenu {
+	display: block;
+	float: left;
+	height: 700px;
+	width: 300px;
+	border: 1px solid black;
+
+}
+
+footer{
+	display: block;
+	clear: both;
+	border: 1px solid black;
+	margin: 0px auto 35px;
+	height:250px;
+	width: 100%;
+}
