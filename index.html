@@ -24,7 +24,7 @@
 	</header>
 	<nav id ="smallnav">
 			<ul>
-        <li>Clothing&Accessories</li>
+        <li>Clothing & Accessories</li>
         <li>Jewelry</li>
         <li>Craft Supplies & Tools</li>
         <li>Weddings</li>
@@ -36,33 +36,50 @@
 	</nav>
 <body>
 	<main id="container">
+  <span>Top categories for "whiskey"</span>
 		<section class="section1">
-      <div class= "bigger"></div>
-      <div class= "bigger"></div>
-      <div class= "bigger"></div>
+      <div class= "smaller">
+        <img  class = "smallImg" src="http://placehold.it/275x200">
+        <div class ="imgText">
+          <h4 class="imgTitle">this is a long title to make sure it fits</h4>
+            <p id="maker">maufacturer</p>
+            <p id="pricing">price $2.00</p>
+        </div>
+      </div>
+      <div class= "smaller">
+        <img  class = "smallImg" src="http://placehold.it/275x200">
+        <div id ="imgText">
+          <h4 class="imgTitle">this is a long title to make sure it fits</h4>
+            <p id="maker">maufacturer</p>
+            <p id="pricing">price $2.00</p>
+        </div>
+      </div>
       <div class= "smaller"></div>
       <div class= "smaller"></div>
       <div class= "smaller"></div>
       <div class= "smaller"></div>
-    </section>
-    <section class="section2">
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-        <div class= "smaller"></div>
-
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
+      <div class= "smaller"></div>
     </section>
 	</main>
 		<div class="leftmenu">
@@ -100,22 +117,33 @@
         <li><input type="radio" name= "price" value="$50 to $100">$50 to $100</li>
         <li><input type="radio" name= "price" value="Over $100">Over $100</li>
       </ul>
-      <input type="text" id="low" placeholder="Low" /> to <input type="text" id="High" /><button type="arrow"></button>
-      <h4>Filter by color</h4>
-        <button>red</button>
-        <button>orange</button>
-        <button>yellow</button>
-        <button>green</button>
-        <button>teal</button>
-        <button>violet</button>
-        <button>black</button>
-        <button>white</button>
+      <span id="highlow">
+        <input type="text" id="low" placeholder="Low" /> to <input type="text" id="high" placeholder="high" /><button type="arrow"></button></span>
+        <h4 class="lefth">Filter by color</h4>
+        <div class="colors">
+          <button id="red"></button>
+          <button id="orange"></button>
+          <button id="yellow"></button>
+          <button id="green"></button>
+          <button id="teal"></button>
+          <button id="violet"></button>
+          <button id="black"></button>
+          <button id="white"></button>
+        </div>
 		  <ul><h4>Ordering Options</h4>
         <li><input type="checkbox" name="ordering" value="gift cards" />Accepts Etsy gift cards</li>
         <li><input type="checkbox" name="ordering" value="customizable" />Customizable</li>
       </ul>
-      <h4>Ships to</h4>
-      <select>United States</select>
+      <h4 class="lefth">Ships to</h4>
+        <select name="country" id="country">
+          <option value="0" label="Select a country … " selected="selected">Select a country …    </option>
+          <optgroup id="country-optgroup-Africa" label="Africa">
+          <option value="DZ" label="Algeria">Algeria</option>
+          <option value="AO" label="Angola">Angola</option>
+          <option value="BJ" label="Benin">Benin</option>
+          <option value="BW" label="Botswana">Botswana</option>
+      </select>
+      
     </div>
 
 

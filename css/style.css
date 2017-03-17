@@ -7,7 +7,8 @@ html {
 }
 
 *{
-	color:black;
+	color:rgb(68,68,68);
+	background: rgb(250, 249, 245)
 }
 .bignav{
 	display: flex;
@@ -15,38 +16,54 @@ html {
 	justify-content: space-between;
 	height: 80px;
 	width: 100%;
-	border: 1px solid black;
+	background: white;
+	border-bottom: 1px solid #ccc;
 }
 
 .leftnav img, .leftnav button, .leftnav input{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	background: white;
+
 }
 
 .leftnav{
 	display: flex;
-	margin: auto;
+	justify-content: flex-start;
+	margin: auto 150px auto 50px;
+	background: white;
+	border-bottom: 1px solid #ccc;
 	height: 80px;
 	width: 800px;
 }
 .leftnav input{
 	width: 400px;
 	height:35px;
-	margin: auto 0px auto;
+	margin: auto 0px auto 15px;
 }
 
 .leftnav button{
 	width: 65px;
 	height: 35px;
 	margin: auto 0px;
+	background: rgb(52,168,196);
+	border-radius: 2px;
+	outline:none;
+	text-align:center;
+	font-size: 14px;
+	border:0px;
+	color:white;
 
 }
 
 .rightnav{
 	display: flex;
 	justify-content: flex-end;
-	margin: auto;
+	background: white;
+	border-bottom: 1px solid #ccc;
+	margin: auto 0px auto 100px;
+	margin-right: 0px;
 	height: 80px;
 	width: 250px;
 }
@@ -54,19 +71,34 @@ html {
 .rightnav h4, .rightnav button{
 	justify-content: flex-end;
 	margin: auto;
+}
 
+.rightnav button{
+	height: 40px;
+	width: 65px;
+	border-radius: 5px;
+	background: white;
+	border: 2px solid rgb(68,68,68);
 }
 
 .cart{
-	margin: auto;
+	margin: auto 30px auto 10px;
 	display: block;
 	height:50px;
 	width:30px;
 	padding-left: 25px;
-	border-left: 1px solid black
+	background: white;
+	border-left: 1px solid #ccc;
 }
 .cart h4{
 	margin-top:0px;
+	background: white;
+}
+
+.cart img{
+	color: #ccc;
+	background: white;
+	font-size: 14px;
 }
 
 
@@ -76,69 +108,172 @@ html {
 	margin: 0px auto 35px;
 	height: 50px;
 	width: 100%;
-	border: 1px solid black;
+	background: white;
+	border-bottom: 1px solid #ccc;
 }
 
 #smallnav ul{
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
+	width:1100px;
+	background: white;
 }
 
 #smallnav li{
-	margin: auto 35px;
+	margin: auto 12px;
+	background: white;
 }
 
 main{
 	display: block;
 	float: right;
 	margin: 0 auto 35px;
-	width: 1150px;
-	height: 2000px;
-	border: 1px solid black;
+	width: 77%;
+	height: auto;
+	overflow: auto;
+	
 }
 
-.section1 , .section2{
+.section1{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin: auto;
-	height: 500px;
+	margin:auto;
+	height: 1800px;
 	width: auto;
 
 }
-.section2{
-	height: 1000px;
-}
-.bigger{
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin: auto;
-	height:250px;
-	width: 350px;
-	border: 1px solid black;
 
+.section1 span{
+	display: block;
+	margin:0px;
+	text-align: left;
+	height: 20px;
+	width: 200px;
 }
+
 .smaller{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: auto;
+	margin: 5px 15px 15px 0px;
 	height:250px;
 	width: 275px;
-	border: 1px solid black;
+	border: 1px solid #ccc;
 }
 
+.smaller img{
+	display: flex;
+	height: 200px;
+	width: 100%;
+	border:0px;
+}
+
+.imgText{
+	margin: auto;
+	flex-wrap: wrap;
+	display: flex;
+	height: 50px;
+	width: auto;
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+}
+
+.imgTitle, #maker{
+	margin: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+}
+
+#pricing{
+	margin:0px 0px 0px 100px;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
 
 .leftmenu {
 	display: block;
 	float: left;
-	height: 1200px;
-	width: 230px;
-	border: 1px solid black;
+	height: 1070px;
+	width: 15%;
+	border: 1px solid #ccc;
+	background: white;
 }
 
-li{
+.leftmenu ul{
+	padding:0px 0px 0px 10px;
+}
+
+.leftmenu li{
+	padding:0px 0px 0px 20px;
+}
+ .lefth {
+	padding:0px 0px 0px 10px;
+}
+
+li, ul, h4, em{
 	list-style: none;
+	background: white;
+}
+#highlow{
+	width: 200px;
+	margin:auto;
+	padding-left: 30px;
+	height: 30px;
+	background-color: white;
+}
+#low, #high{
+	width: 40px;
+}
+.colors{
+	display: flex;
+	justify-content: space-around;
+	width: 220px;
+	height: 35px;
+	background: white;
+}
+
+select {
+	display: flex;
+	justify-content:space-around;
+	height: 40px;
+	width:210px;
+	margin: auto;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background-color: white;
+}
+#red, #orange, #yellow, #green, #teal, #violet, #black, #white{
+	height:20px;
+	width: 20px;
+	border: 1px solid #ccc;
+}
+#red{
+	background-color: rgb(244,11,50)
+}
+#orange{
+	background-color: rgb(255, 127, 0)
+}
+#yellow{
+	background-color: rgb(243,204,12)
+}
+#green{
+	background-color: rgb(10,194,10)
+}
+#teal{
+	background-color: rgb(12,204,243)
+}
+#violet{
+	background-color: rgb(166,12,243)
+}
+#black{
+	background-color: rgb(0,0,0)
+}
+#white{
+	background-color: rgb(255,255,255)
 }
 
 footer{
