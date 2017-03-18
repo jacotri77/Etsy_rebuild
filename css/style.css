@@ -8,7 +8,8 @@ html {
 
 *{
 	color:rgb(68,68,68);
-	background: rgb(250, 249, 245)
+	background: rgb(250, 249, 245);
+	font-family: "Graphik","helvetica", sans-serif;
 }
 .bignav{
 	display: flex;
@@ -141,6 +142,11 @@ main{
 	margin:auto;
 	height: 1800px;
 	width: auto;
+	color:rgb(68,68,68);
+	background: rgb(250, 249, 245);
+	font-size: 12px;
+	font-family: "Graphik","helvetica", sans-serif;
+	background-color: white;
 
 
 }
@@ -151,6 +157,7 @@ main{
 	text-align: left;
 	height: 20px;
 	width: 200px;
+	background-color: white;
 }
 
 .smaller{
@@ -174,9 +181,15 @@ main{
 a{
 	height:170px;
 	width: 100%;
+	text-decoration: none;
+	background-color: white;
 }
 
-.imgText{
+.categories a, #smallnav a{
+	background-color: white;
+}
+
+#imgText{
 	margin: auto;
 	flex-wrap: wrap;
 	display: flex;
@@ -184,11 +197,13 @@ a{
 	width: auto;
 	background-color: white;
 	border-bottom: 1px solid #ccc;
+	text-overflow: ellipsis;
 }
 
-.imgTitle, #maker{
-	margin: 0px;
+#imgTitle, #maker{
+	margin: 0px auto;
 	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	background-color: white;
 }
@@ -199,15 +214,17 @@ a{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
+	color: rgb(120, 192, 66);
 }
 
 .leftmenu {
 	display: block;
 	float: left;
-	height: 1070px;
-	width: 15%;
+	height: 1150px;
+	width: 230px;
 	border: 1px solid #ccc;
 	background: white;
+	font-size: 14px;
 }
 
 .leftmenu ul{
@@ -215,7 +232,7 @@ a{
 }
 
 .leftmenu li{
-	padding:0px 0px 0px 20px;
+	padding:5px 0px 0px 20px;
 }
  .lefth {
 	padding:0px 0px 0px 10px;
@@ -257,6 +274,8 @@ select {
 	height:20px;
 	width: 20px;
 	border: 1px solid #ccc;
+	border-radius: 5px;
+	outline:none;
 }
 #red{
 	background-color: rgb(244,11,50)
