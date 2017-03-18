@@ -9,13 +9,13 @@ $(document).ready(function() {
 
   data.results.forEach(function(item){
   item.Images.forEach(function(image){ 
-    
+
   
       var template = `
         <div class= "smaller">
-          <img  class="smallImg" src=${image.url_fullxfull}
+          <a href=${item.url} ><img class="smallImg" src=${image.url_170x135}></a>
           <div id="imgText">
-            <h4 class="imgTitle">${item.Shop.title}</h4>
+            <h4 class="imgTitle">${item.title}</h4>
             <p id="maker">${item.Shop.shop_name}</p>
             <p id="pricing">$${item.price}</p>
           </div>

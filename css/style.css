@@ -142,6 +142,7 @@ main{
 	height: 1800px;
 	width: auto;
 
+
 }
 
 .section1 span{
@@ -160,20 +161,26 @@ main{
 	height:250px;
 	width: 275px;
 	border: 1px solid #ccc;
+	background-color: white;
 }
 
 .smaller img{
 	display: flex;
-	height: 200px;
+	height: 170px;
 	width: 100%;
 	border:0px;
+}
+
+a{
+	height:170px;
+	width: 100%;
 }
 
 .imgText{
 	margin: auto;
 	flex-wrap: wrap;
 	display: flex;
-	height: 50px;
+	height: 80px;
 	width: auto;
 	background-color: white;
 	border-bottom: 1px solid #ccc;
