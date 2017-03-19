@@ -11,6 +11,12 @@ html {
 	background: rgb(250, 249, 245);
 	font-family: "Graphik","helvetica", sans-serif;
 }
+
+a{
+text-decoration: none;
+background-color: white; 
+}
+
 .bignav{
 	display: flex;
 	flex-wrap: wrap;
@@ -42,20 +48,26 @@ html {
 	width: 400px;
 	height:35px;
 	margin: auto 0px auto 15px;
+	font-size: 14px;
+	padding-left: 25px;
 }
 
-.leftnav button{
+ .leftnav button{
 	width: 65px;
 	height: 35px;
 	margin: auto 0px;
-	background: rgb(52,168,196);
+	background-color: rgb(52,168,196);
 	border-radius: 2px;
 	outline:none;
 	text-align:center;
 	font-size: 14px;
 	border:0px;
 	color:white;
+   
+}
 
+.leftnav::-webkit-input-placeholder { 
+  color: black;
 }
 
 .rightnav{
@@ -72,14 +84,17 @@ html {
 .rightnav h4, .rightnav button{
 	justify-content: flex-end;
 	margin: auto;
+	font-size: 14px;
+	font-weight: normal;
 }
 
 .rightnav button{
-	height: 40px;
+	height: 35px;
 	width: 65px;
 	border-radius: 5px;
 	background: white;
-	border: 2px solid rgb(68,68,68);
+	border: 1px solid rgb(68,68,68);
+	outline: none;
 }
 
 .cart{
@@ -90,10 +105,14 @@ html {
 	padding-left: 25px;
 	background: white;
 	border-left: 1px solid #ccc;
+
 }
 .cart h4{
 	margin-top:0px;
 	background: white;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
 }
 
 .cart img{
@@ -222,11 +241,16 @@ main{
 .leftmenu {
 	display: block;
 	float: left;
-	height: 1150px;
-	width: 230px;
+	height: 1350px;
+	width: 245px;
 	border: 1px solid #ccc;
 	background: white;
 	font-size: 14px;
+}
+
+ .leftmenu input[type="radio"]:checked {
+	  background-color: rgb(52,168,196);
+	  border: 3px solid rgb(52,168,196);
 }
 
 .leftmenu ul{
@@ -234,10 +258,34 @@ main{
 }
 
 .leftmenu li{
+	margin: 5px 0px;
 	padding:5px 0px 0px 20px;
+}
+
+.leftmenu li:last-child{
+	margin-bottom: 15px;
+}
+
+.shopany li:last-child{
+	margin-bottom: 15px;
 }
  .lefth {
 	padding:0px 0px 0px 10px;
+	background-color: white;
+}
+
+.categories,.itemty,.shopany,.priceitem, .colored, .ordering{
+	width:85%;
+	margin: auto;
+	border-bottom: 1px solid #ccc;
+	background-color: white;
+	padding-bottom: 30px;
+}
+
+.shipping{
+	width:85%;
+	margin: auto;
+	background-color: white;
 }
 
 li, ul, h4, em{
@@ -246,7 +294,7 @@ li, ul, h4, em{
 }
 #highlow{
 	width: 200px;
-	margin:auto;
+	margin:10px auto;
 	padding-left: 30px;
 	height: 30px;
 	background-color: white;
@@ -257,7 +305,7 @@ li, ul, h4, em{
 .colors{
 	display: flex;
 	justify-content: space-around;
-	width: 220px;
+	width: 200px;
 	height: 35px;
 	background: white;
 }
@@ -278,30 +326,38 @@ select {
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	outline:none;
+	text-decoration: none;
+	color:transparent;
+	cursor: pointer;
+	background-color: white;
+}
+
+form {
+	background-color: white;
 }
 #red{
-	background-color: rgb(244,11,50)
+	background-color: rgb(244,11,50);
 }
 #orange{
-	background-color: rgb(255, 127, 0)
+	background-color: rgb(255, 127, 0);
 }
 #yellow{
-	background-color: rgb(243,204,12)
+	background-color: rgb(243,204,12);
 }
 #green{
-	background-color: rgb(10,194,10)
+	background-color: rgb(10,194,10);
 }
 #teal{
-	background-color: rgb(12,204,243)
+	background-color: rgb(12,204,243);
 }
 #violet{
-	background-color: rgb(166,12,243)
+	background-color: rgb(166,12,243);
 }
 #black{
-	background-color: rgb(0,0,0)
+	background-color: rgb(0,0,0);
 }
 #white{
-	background-color: rgb(255,255,255)
+	background-color: rgb(255,255,255);
 }
 
 footer{
