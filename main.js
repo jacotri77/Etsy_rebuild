@@ -10,12 +10,12 @@ $(document).ready(function() {
       var image = item.Images[0].url_fullxfull
       var template = `
         <div class= "smaller">
-          <a href=${item.url}><img class="smallImg" src=${image}></a>
+          <a href=${item.url}><img class="smallImg" src=${image}>
           <div id="imgText">
             <h4 class="imgTitle">${item.title}</h4>
             <p id="maker">${item.Shop.shop_name}</p>
             <p id="pricing">$${item.price}</p>
-          </div>
+          </div></a>
         </div>
 
       `

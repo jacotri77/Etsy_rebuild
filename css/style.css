@@ -158,7 +158,7 @@ background-color: white;
 main{
 	display: block;
 	float: right;
-	margin: 0 auto 35px;
+	margin: 0 auto 15px;
 	width: 80%;
 	height: auto;
 	overflow: auto;
@@ -368,8 +368,54 @@ form {
 }
 
 .section2{
-	height: 
+	float: right;
+	clear:both;
+	margin:auto;
+	height: 400px;
+	width:80%;
+	background-color: rgb(250, 249, 245);
+}
 
+.section2 ul{
+	display: inline-block;
+	margin:auto;
+	padding-left: 0px;
+	height:100px;
+	width: 200px;
+	background-color: rgb(250, 249, 245);
+}
+
+.section2 h4, .section2 a{
+	margin-top: 0px;
+	background-color: rgb(250, 249, 245);
+}
+
+.section2 li{
+	margin: 10px 0px;
+	background-color: rgb(250, 249, 245);
+}
+.underlined{
+	text-decoration: underline;
+}
+
+.section2 button{
+	background-color: rgb(52,168,196);
+	color:white;
+	width: 75px;
+	height: 35px;
+	font-size: 14px;
+	font-family:"Graphik", sans-serif;
+	border-radius: 5px;
+	border: 1px solid rgb(68,68,68);
+	outline: none;
+	cursor: pointer;
+}
+
+.contactus{
+	display: block;
+	width: auto;
+	height: 35px;
+	margin:auto;
 }
 
 footer{
