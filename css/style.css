@@ -11,6 +11,10 @@ html {
 	background: rgb(250, 249, 245);
 	font-family: "Graphik","helvetica", sans-serif;
 }
+#wholepage{
+	margin:auto;
+	width:1450px;
+}
 
 a{
 text-decoration: none;
@@ -38,11 +42,11 @@ background-color: white;
 .leftnav{
 	display: flex;
 	justify-content: flex-start;
-	margin: auto 150px auto 50px;
+	margin: auto 10px auto 50px;
 	background: white;
 	border-bottom: 1px solid #ccc;
 	height: 80px;
-	width: 800px;
+	width: 60%;
 }
 .leftnav input{
 	width: 400px;
@@ -80,10 +84,10 @@ background-color: white;
 	justify-content: flex-end;
 	background: white;
 	border-bottom: 1px solid #ccc;
-	margin: auto 0px auto 100px;
+	margin: auto 0px auto 10px;
 	margin-right: 0px;
 	height: 80px;
-	width: 250px;
+	width: 350px;
 }
 
 .rightnav h4, .rightnav button{
@@ -155,7 +159,7 @@ main{
 	display: block;
 	float: right;
 	margin: 0 auto 35px;
-	width: 77%;
+	width: 80%;
 	height: auto;
 	overflow: auto;
 	
@@ -166,7 +170,7 @@ main{
 	justify-content: space-between;
 	flex-wrap: wrap;
 	margin:auto;
-	height: 1800px;
+	height: auto;
 	width: auto;
 	color:rgb(68,68,68);
 	background: rgb(250, 249, 245);
@@ -190,7 +194,7 @@ main{
 	justify-content: space-between;
 	margin: 5px 15px 15px 0px;
 	height:250px;
-	width: 275px;
+	width: 23%;
 	border: 1px solid #ccc;
 	background-color: white;
 }
@@ -249,7 +253,7 @@ main{
 	display: block;
 	float: left;
 	height: 1350px;
-	width: 245px;
+	width: 19%;
 	border: 1px solid #ccc;
 	background: white;
 	font-size: 14px;
@@ -363,6 +367,11 @@ form {
 	background-color: rgb(255,255,255);
 }
 
+.section2{
+	height: 
+
+}
+
 footer{
 	display: block;
 	clear: both;
@@ -375,9 +384,11 @@ footer{
 
 footer ul{
 	display: inline-block;
-	margin: auto;
+	vertical-align: top;
+	margin-top: 50px auto;
 	background: rgb(250, 249, 245);
 	height: 250px;
+	width: 20%;
 }
 footer button, footer h4, footer li{
 	display: block;
@@ -385,11 +396,13 @@ footer button, footer h4, footer li{
 	background: rgb(250, 249, 245);
 }
 
-footer button{
-	align-content: left;
-}
 footer h4{
 	padding:10px 0px 0px 0px;
+}
+footer button{
+	text-align: left;
+	margin-left: 0px;
+	background-color: rgb(52,168,196)
 }
 footer li{
 	margin: 10px auto;
@@ -399,5 +412,7 @@ footer a{
 }
 #social{
 	display: inline-block;
+	vertical-align: top;
+	margin-top: 50px;
 }
 

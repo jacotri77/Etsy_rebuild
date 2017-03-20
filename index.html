@@ -7,177 +7,183 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-	<header class ="bignav">
-    <div class="leftnav">
-      <a href="#"><img src="images/etsy-vector-logo.png"></a>
-  		<input type="text" id="search" placeholder="whiskey">
-      <button href="#">Search</button>
-    </div>
-    <div class="rightnav">
-      <h4><a href="#">Sell on Etsy</a></h4>
-      <h4><a href="#">Register</a></h4>
-      <button id="signIns" href="#">Sign In</button>
-    </div>
-    <div class="cart">
-      <img src="images/cart.png">
-      <h4>Cart</h4>
-    </div>  
-	</header>
-	<nav id ="smallnav">
-			<ul>
-        <li><a href="#">Clothing & Accessories</a></li>
-        <li><a href="#">Jewelry</a></li>
-        <li><a href="#">Craft Supplies & Tools</a></li>
-        <li><a href="#">Weddings</a></li>
-        <li><a href="#">Entertainment</a></li>
-        <li><a href="#">Home & Living</a></li>
-        <li><a href="#">Kids & Baby</a></li>
-        <li><a href="#">Vintage</a></li>   
-      </ul>
-	</nav>
-<body>
-	<main id="container">
-  <span>Top categories for "whiskey"</span>
-		<section class="section1">
-      <div class= "smaller">
-        <img  class = "smallImg" src="http://placehold.it/275x200">
-        <div id="imgText">
-          <h4 class="imgTitle">this is a long title to make sure it fits</h4>
-            <p id="maker">maufacturer</p>
-            <p id="pricing">price $2.00</p>
-        </div>
+  <body>
+  	<header class ="bignav">
+      <div class="leftnav">
+        <a href="#"><img src="images/etsy-vector-logo.png"></a>
+    		<input type="text" id="search" placeholder="whiskey">
+        <button href="#">Search</button>
       </div>
-      <div class= "smaller">
-        <img  class = "smallImg" src="http://placehold.it/275x200">
-        <div id ="imgText">
-          <h4 class="imgTitle">this is a long title to make sure it fits</h4>
-            <p id="maker">maufacturer</p>
-            <p id="pricing">price $2.00</p>
-        </div>
-      </div>
-      
-    </section>
-	</main>
-		<div class="leftmenu">
-      <ul class="categories"><h4>All Categories</h4>
-        <li><a href="#">Home & Living</a></li>
-        <li><a href="#">Art & Collectables</a></li>
-        <li><a href="#">Weddings</a></li>
-        <li><a href="#">Clothing</a></li>
-        <li><a href="#">Paper & Party Supplies</a></li>
-        <li><a href="#">Jewelry</a></li>
-        <li><a href="#">Craft Supplies & Tools</a></li>
-        <li><a href="#">Accessories</a></li>
-        <li><a href="#">Bags & Purses</a></li>
-        <li><a href="#">Bath & Beauty</a></li>
-        <li><a href="#">Books, Movies & Music</a></li>
-        <li><a href="#">Shoes</a></li>
-        <li><a href="#">Electronics & Accessories</a></li>
-        <li><a href="#">Toys & Games</a></li>
-        <li><a href="#">Pet Supplies</a></li>
-      </ul>
-			<ul class="shopany"><h4>Shop Anywhere</h4>
-        <li><input type="radio" name= "shopanywhere" value="Anywhere"><a href="#">Anywhere</a></li>
-        <li><input type="radio" name= "shopanywhere" value="United States"><a href="#">United States</a></li>
-        <li><a href="#">Choose a custom location</li>
-      </ul>
-      <ul class="itemty"><h4>Item Type</h4>
-        <li><input type="radio" name= "itemtype" value="All Items"><a href="#">All Items</a></li>
-        <li><input type="radio" name= "itemtype" value="Handmade"><a href="#">Handmade</a></li>
-        <li><input type="radio" name= "itemtype" value="Vintage"><a href="#">Vintage</a></li>
-      </ul>
-      <div class="priceitem">
-        <ul><h4>Price ($)</h4>
-          <li><input type="radio" name= "price" value="Any price"><em><a href="#">Any price</a></em></li>
-          <li><input type="radio" name= "price" value="Under $25"><a href="#">Under $25</a></li>
-          <li><input type="radio" name= "price" value="$25 to $50"><a href="#">$25 to $50</a></li>
-          <li><input type="radio" name= "price" value="$50 to $100"><a href="#">$50 to $100</a></li>
-          <li><input type="radio" name= "price" value="Over $100"><a href="#">Over $100</a></li>
+      <div class="rightnav">
+        <h4><a href="#">Sell on Etsy</a></h4>
+        <h4><a href="#">Register</a></h4>
+        <button id="signIns" href="#">Sign In</button>
+     
+      <div class="cart">
+        <img src="images/cart.png">
+        <h4>Cart</h4>
+      </div> 
+       </div> 
+  	</header>
+  	<nav id ="smallnav">
+  			<ul>
+          <li><a href="#">Clothing & Accessories</a></li>
+          <li><a href="#">Jewelry</a></li>
+          <li><a href="#">Craft Supplies & Tools</a></li>
+          <li><a href="#">Weddings</a></li>
+          <li><a href="#">Entertainment</a></li>
+          <li><a href="#">Home & Living</a></li>
+          <li><a href="#">Kids & Baby</a></li>
+          <li><a href="#">Vintage</a></li>   
         </ul>
-        <span id="highlow">
-          <input type="text" id="low" placeholder="Low" /> to <input type="text" id="high" placeholder="high" /><button type="arrow"></button></span>
-       </div>
-       <div class="colored">
-          <h4 class="lefth">Filter by color</h4>
-          <div class="colors">
-            <form action="#">
-              <input id ="red" type="submit"/>
-            </form>
-            <form action="#">
-              <input id ="orange" type="submit"/>
-            </form>
-            <form action="#">
-              <input id ="yellow" type="submit"/>
-            </form>
-            <form action="#">
-              <input id ="green" type="submit"/>
-            </form>
-            <form action="#">
-              <input id ="teal" type="submit"/>
-            </form>
-            <form action="#">
-              <input id ="violet" type="submit"/>
-            </form>
-            <form action="#">
-              <input id ="black" type="submit"/>
-            </form>
-            <form action="#">
-              <input id ="white" type="submit"/>
-            </form> 
+  	</nav>
+    <div id="wholepage">
+    	<main id="container">
+      <span>Top categories for "whiskey"</span>
+    		<section class="section1">
+          <div class= "smaller">
+            <img  class = "smallImg" src="http://placehold.it/275x200">
+            <div id="imgText">
+              <h4 class="imgTitle">this is a long title to make sure it fits</h4>
+                <p id="maker">maufacturer</p>
+                <p id="pricing">price $2.00</p>
+            </div>
+          </div>
+          <div class= "smaller">
+            <img  class = "smallImg" src="http://placehold.it/275x200">
+            <div id ="imgText">
+              <h4 class="imgTitle">this is a long title to make sure it fits</h4>
+                <p id="maker">maufacturer</p>
+                <p id="pricing">price $2.00</p>
+            </div>
+          </div>
+          
+        </section>
+    	</main>
+    		<div class="leftmenu">
+          <ul class="categories"><h4>All Categories</h4>
+            <li><a href="#">Home & Living</a></li>
+            <li><a href="#">Art & Collectables</a></li>
+            <li><a href="#">Weddings</a></li>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">Paper & Party Supplies</a></li>
+            <li><a href="#">Jewelry</a></li>
+            <li><a href="#">Craft Supplies & Tools</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Bags & Purses</a></li>
+            <li><a href="#">Bath & Beauty</a></li>
+            <li><a href="#">Books, Movies & Music</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Electronics & Accessories</a></li>
+            <li><a href="#">Toys & Games</a></li>
+            <li><a href="#">Pet Supplies</a></li>
+          </ul>
+    			<ul class="shopany"><h4>Shop Anywhere</h4>
+            <li><input type="radio" name= "shopanywhere" value="Anywhere"><a href="#">Anywhere</a></li>
+            <li><input type="radio" name= "shopanywhere" value="United States"><a href="#">United States</a></li>
+            <li><a href="#">Choose a custom location</li>
+          </ul>
+          <ul class="itemty"><h4>Item Type</h4>
+            <li><input type="radio" name= "itemtype" value="All Items"><a href="#">All Items</a></li>
+            <li><input type="radio" name= "itemtype" value="Handmade"><a href="#">Handmade</a></li>
+            <li><input type="radio" name= "itemtype" value="Vintage"><a href="#">Vintage</a></li>
+          </ul>
+          <div class="priceitem">
+            <ul><h4>Price ($)</h4>
+              <li><input type="radio" name= "price" value="Any price"><em><a href="#">Any price</a></em></li>
+              <li><input type="radio" name= "price" value="Under $25"><a href="#">Under $25</a></li>
+              <li><input type="radio" name= "price" value="$25 to $50"><a href="#">$25 to $50</a></li>
+              <li><input type="radio" name= "price" value="$50 to $100"><a href="#">$50 to $100</a></li>
+              <li><input type="radio" name= "price" value="Over $100"><a href="#">Over $100</a></li>
+            </ul>
+            <span id="highlow">
+              <input type="text" id="low" placeholder="Low" /> to <input type="text" id="high" placeholder="high" /><button type="arrow"></button></span>
+           </div>
+           <div class="colored">
+              <h4 class="lefth">Filter by color</h4>
+              <div class="colors">
+                <form action="#">
+                  <input id ="red" type="submit"/>
+                </form>
+                <form action="#">
+                  <input id ="orange" type="submit"/>
+                </form>
+                <form action="#">
+                  <input id ="yellow" type="submit"/>
+                </form>
+                <form action="#">
+                  <input id ="green" type="submit"/>
+                </form>
+                <form action="#">
+                  <input id ="teal" type="submit"/>
+                </form>
+                <form action="#">
+                  <input id ="violet" type="submit"/>
+                </form>
+                <form action="#">
+                  <input id ="black" type="submit"/>
+                </form>
+                <form action="#">
+                  <input id ="white" type="submit"/>
+                </form> 
+              </div>
+            </div>
+    		  <ul class="ordering"><h4>Ordering Options</h4>
+            <li><input type="checkbox" name="ordering" value="gift cards" />Accepts Etsy gift cards</li>
+            <li><input type="checkbox" name="ordering" value="customizable" />Customizable</li>
+          </ul>
+          <div class="shipping">
+          <h4 class="lefth">Ships to</h4>
+            <select name="country" id="country">
+              <option value="0" label="Select a country … " selected="selected">Select a country …    </option>
+              <optgroup id="country-optgroup-Africa" label="Africa">
+              <option value="DZ" label="Algeria">Algeria</option>
+              <option value="AO" label="Angola">Angola</option>
+              <option value="BJ" label="Benin">Benin</option>
+              <option value="BW" label="Botswana">Botswana</option>
+          </select>
           </div>
         </div>
-		  <ul class="ordering"><h4>Ordering Options</h4>
-        <li><input type="checkbox" name="ordering" value="gift cards" />Accepts Etsy gift cards</li>
-        <li><input type="checkbox" name="ordering" value="customizable" />Customizable</li>
-      </ul>
-      <div class="shipping">
-      <h4 class="lefth">Ships to</h4>
-        <select name="country" id="country">
-          <option value="0" label="Select a country … " selected="selected">Select a country …    </option>
-          <optgroup id="country-optgroup-Africa" label="Africa">
-          <option value="DZ" label="Algeria">Algeria</option>
-          <option value="AO" label="Angola">Angola</option>
-          <option value="BJ" label="Benin">Benin</option>
-          <option value="BW" label="Botswana">Botswana</option>
-      </select>
+      <section class ="section2">
+
+      </section>
+      <footer>
+        <ul><h4>Turn your passion into a business</h4>
+          <button>Open a shop</button>
+          <h4>Sell on Etsy</h4>
+          <li>Open a shop</li>
+          <li>Seller Handbook</li>
+          <li>Etsy credit card reader</li>
+        </ul>
+        <ul><h4>Join the community</h4>
+          <li><a href="#">Teams</a></li>
+          <li><a href="#">Forums</a></li>
+          <li><a href="#">Upcoming events</a></li>
+          <li><a href="#">Affiliates</a></li>
+          <li><a href="#">Etsy Local</a></li>
+        </ul>
+        <ul><h4>Discover and shop</h4>
+          <li><a href="#">Gift cards</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Mobile apps</a></li>
+          <li><a href="#">Gift registeries</a></li>
+          <li><a href="#">Wholesale</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">Editor's Picks</a></li>
+        </ul>
+        <ul><h4>Get to know us</h4>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Policies</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Investors</a></li>
+        </ul>
+        <h4 id="social">Follow Etsy</h4>
+          
+        </ul>
+      </footer>
       </div>
-    </div>
-  <footer>
-    <ul><h4>Turn your passion into a business</h4>
-      <button>Open a shop</button>
-      <h4>Sell on Etsy</h4>
-      <li>Open a shop</li>
-      <li>Seller Handbook</li>
-      <li>Etsy credit card reader</li>
-    </ul>
-    <ul><h4>Join the community</h4>
-      <li><a href="#">Teams</a></li>
-      <li><a href="#">Forums</a></li>
-      <li><a href="#">Upcoming events<</a></li>
-      <li><a href="#">Affiliates</a></li>
-      <li><a href="#">Etsy Local</a></li>
-    </ul>
-    <ul><h4>Discover and shop</h4>
-      <li><a href="#">Gift cards</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Mobile apps</a></li>
-      <li><a href="#">Gift registeries</a></li>
-      <li><a href="#">Wholesale</a></li>
-      <li><a href="#">Search</a></li>
-      <li><a href="#">Editor's Picks</a></li>
-    </ul>
-    <ul><h4>Get to know us</h4>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Policies</a></li>
-      <li><a href="#">Careers</a></li>
-      <li><a href="#">Press</a></li>
-      <li><a href="#">Developers</a></li>
-      <li><a href="#">Investors</a></li>
-    </ul>
-    <h4 id="social">Follow Etsy</h4>
-      
-    </ul>
-  </footer>
   <script
     src="http://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
