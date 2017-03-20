@@ -10,6 +10,7 @@ html {
 	color:rgb(68,68,68);
 	background: rgb(250, 249, 245);
 	font-family: "Graphik","helvetica", sans-serif;
+	margin-top: 0px;
 }
 #wholepage{
 	margin:auto;
@@ -19,16 +20,22 @@ html {
 a{
 text-decoration: none;
 background-color: white; 
+
 }
 
 .bignav{
+	background-color: white;
+	margin-top: 0px;
+}
+
+.headerdiv{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	height: 80px;
-	width: 100%;
+	width: 1450px;
 	background: white;
-	border-bottom: 1px solid #ccc;
+	margin:auto;
 }
 
 .leftnav img, .leftnav button, .leftnav input{
@@ -42,9 +49,9 @@ background-color: white;
 .leftnav{
 	display: flex;
 	justify-content: flex-start;
-	margin: auto 10px auto 50px;
+	margin: auto 10px auto 5px;
 	background: white;
-	border-bottom: 1px solid #ccc;
+	
 	height: 80px;
 	width: 60%;
 }
@@ -52,8 +59,9 @@ background-color: white;
 	width: 400px;
 	height:35px;
 	margin: auto 0px auto 15px;
-	font-size: 14px;
+	font-size: 16px;
 	padding-left: 25px;
+	outline: none;
 }
 
  .leftnav button{
@@ -75,15 +83,15 @@ background-color: white;
 	background-color: transparent;
 }
 
-.leftnav::-webkit-input-placeholder { 
+.leftnav input::-webkit-input-placeholder { 
   color: black;
+ 
 }
 
 .rightnav{
 	display: flex;
 	justify-content: flex-end;
 	background: white;
-	border-bottom: 1px solid #ccc;
 	margin: auto 0px auto 10px;
 	margin-right: 0px;
 	height: 80px;
@@ -100,7 +108,7 @@ background-color: white;
 .rightnav button{
 	height: 35px;
 	width: 65px;
-	border-radius: 5px;
+	border-radius: 3px;
 	background: white;
 	border: 1px solid rgb(68,68,68);
 	outline: none;
@@ -135,22 +143,36 @@ background-color: white;
 
 #smallnav{
 	display: flex;
-	clear: both;
-	margin: 0px auto 35px;
-	height: 50px;
+	height: 55px;
 	width: 100%;
 	background: white;
 	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	margin: 0px auto 35px;
 }
 
-#smallnav ul{
+#shenanigans{
 	display: flex;
 	justify-content: flex-start;
-	width:1100px;
-	background: white;
+	margin: auto;
+	height: 49px;
+	line-height: 50px;
+	width: 1450px;
+	background-color: white;
+	
+
 }
 
-#smallnav li{
+#shenanigans ul{
+	display: flex;
+	width:1450px;
+	background: transparent;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	
+}
+
+#shenanigans li{
 	margin: auto 12px;
 	background: white;
 }
@@ -253,7 +275,7 @@ main{
 	display: block;
 	float: left;
 	height: 1350px;
-	width: 19%;
+	width: 18%;
 	border: 1px solid #ccc;
 	background: white;
 	font-size: 14px;
@@ -398,24 +420,42 @@ form {
 	text-decoration: underline;
 }
 
-.section2 button{
+.contactus button{
 	background-color: rgb(52,168,196);
 	color:white;
 	width: 75px;
 	height: 35px;
 	font-size: 14px;
 	font-family:"Graphik", sans-serif;
-	border-radius: 5px;
-	border: 1px solid rgb(68,68,68);
+	border-radius: 2px;
+	border: 0px;
 	outline: none;
 	cursor: pointer;
+	margin-left: 0px;
+	margin:auto;
 }
 
 .contactus{
 	display: block;
-	width: auto;
+	width: 500px;
 	height: 35px;
 	margin:auto;
+}
+
+.contactus input{
+	background-color: white;
+	outline:none;
+	width: 300px;
+	height: 35px;
+	border-right: 0px;
+	font-size: 14px;
+	padding-left: 25px;
+	margin: auto;
+}
+
+.contactus p{
+	margin:auto;
+	margin-bottom: 25px;
 }
 
 footer{

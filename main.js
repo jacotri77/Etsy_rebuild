@@ -51,6 +51,12 @@ $(document).ready(function() {
       $(this).css("text-decoration", "none")
     })
 
+    $(".section2 button").hover(function(mouseenter){
+      $(this).css("background-color", "rgba(52,168,196,.85)")
+    }, 
+      function(mouseleave){
+      $(this).css("background-color", "rgb(52,168,196)")
+    })
 
 })
   
